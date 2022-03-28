@@ -42,6 +42,8 @@ public class Calculator_Devops {
     }
     public double factorial(double number)
     {
+        if(number < 0)
+            return Double.NaN;
         double fact=1;
         for(double i=2;i<=number;i++)
             fact*=i;
