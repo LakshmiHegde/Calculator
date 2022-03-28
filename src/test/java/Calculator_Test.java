@@ -34,7 +34,7 @@ public class Calculator_Test {
 
     @Test
     public void power_true(){
-        assertEquals("Power function check for, True positive result ",8,calc.power(4,2),delta);
+        assertEquals("Power function check for, True positive result ",16,calc.power(4,2),delta);
         assertEquals("Power function check for, True negative result ",1,calc.power(3,0),delta);
         //assertEquals("Square root function check for, True negative result ",Double.NaN,calc.squareroot(-49),delta);
     }
@@ -48,7 +48,7 @@ public class Calculator_Test {
 
     @Test
     public void logarithm_true(){
-        assertEquals("Logarithm function check for, True positive result ",1.38629436,calc.logarithm(4),delta);
+        assertEquals("Logarithm function check for, True positive result ",1.3862943611198906,calc.logarithm(4),delta);
         assertEquals("Logarithm function check for, True negative result ",Double.NaN,calc.logarithm(-4),delta);
         //assertEquals("Square root function check for, True negative result ",Double.NaN,calc.squareroot(-49),delta);
     }
