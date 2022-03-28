@@ -21,8 +21,8 @@ public class Calculator_Test {
 
     @Test
     public void factorial_true(){
-        assertEquals("Factorial function check for, True positive result ",5040,calc.squareroot(7),delta);
-        assertEquals("Factorial function check for, True negative result ",Double.NaN,calc.squareroot(-4),delta);
+        assertEquals("Factorial function check for, True positive result ",5040,calc.factorial(7),delta);
+        assertEquals("Factorial function check for, True negative result ",Double.NaN,calc.factorial(-4),delta);
         //assertEquals("Square root function check for, True negative result ",Double.NaN,calc.squareroot(-49),delta);
     }
     @Test
