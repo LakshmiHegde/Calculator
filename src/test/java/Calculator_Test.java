@@ -55,7 +55,7 @@ public class Calculator_Test {
     @Test
     public void logarithm_false(){
         assertNotEquals("Logarithm function check for, False positive result ",Double.NaN,calc.logarithm(3),delta);
-        assertNotEquals("Logarithm function check for, False negative result ",1.38629436,calc.logarithm(-4),delta);
+        assertNotEquals("Logarithm function check for, False negative result ",1.3862943611198906,calc.logarithm(-4),delta);
         //assertEquals("Square root function check for, True negative result ",Double.NaN,calc.squareroot(-49),delta);
     }
 }
