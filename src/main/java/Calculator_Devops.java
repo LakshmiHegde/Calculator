@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Calculator_Devops {
     public static void main(String[] args)
     {
+        System.out.println("Enterd\n");
         System.out.println("----Calculator----");
         while(true)
         {
