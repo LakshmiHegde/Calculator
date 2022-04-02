@@ -46,6 +46,11 @@ public class Calculator_Devops {
     public double squareroot(double number)
     {
         logger.info("Called square root, input number: "+number);
+        if(number < 0)
+        {
+            logger.error("Invalid input to square root function: entered input is negative number");
+            return Double.NaN;
+        }
         double result=Math.sqrt(number);
         logger.info("Result: "+result);
         return result;
@@ -55,7 +60,10 @@ public class Calculator_Devops {
     {
         logger.info("Called Factorial, input number: "+number);
         if(number < 0)
+        {
+            logger.error("Invalid input to factorial : entered input is negative number");
             return Double.NaN;
+        }
         double fact=1;
         for(double i=2;i<=number;i++)
             fact*=i;
@@ -65,6 +73,11 @@ public class Calculator_Devops {
     public double logarithm(double number)
     {
         logger.info("Called logarithm, input number: "+number);
+        if(number < 0)
+        {
+            logger.error("Invalid input to logarithm : entered input is negative number");
+            return Double.NaN;
+        }
         double result=Math.log(number);
         logger.info("Result: "+result);
         return result;
