@@ -40,7 +40,11 @@ public class Calculator_Devops {
                     double b=sc.nextInt();
                     System.out.println("Power of "+a+" raised to "+b+" = "+c.power(a,b));
                     break;
-                case 5: System.exit(0);
+                case 5: System.out.println("Exit");
+                    System.exit(0);
+                    break;
+                default: System.out.println("Invalid choice");
+                    logger.error("Invalid choice entered. Please enter valid choice and proceed");
             }
         }
     }
