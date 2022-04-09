@@ -36,8 +36,8 @@ public class Calculator_Devops {
                         break;
 
                 case 4: System.out.println("Input two numbers");
-                    double a=sc.nextInt();
-                    double b=sc.nextInt();
+                    double a=sc.nextDouble();
+                    double b=sc.nextDouble();
                     System.out.println("Power of "+a+" raised to "+b+" = "+c.power(a,b));
                     break;
                 case 5: System.out.println("Exit");
