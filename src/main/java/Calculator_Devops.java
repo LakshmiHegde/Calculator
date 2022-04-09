@@ -43,7 +43,7 @@ public class Calculator_Devops {
                 case 5: System.out.println("Exit");
                     System.exit(0);
                     break;
-                default: System.out.println("Invalid choice");
+                default: //System.out.println("Invalid choice");
                     logger.error("Invalid choice entered. Please enter valid choice and proceed");
             }
         }
