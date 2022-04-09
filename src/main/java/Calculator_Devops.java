@@ -7,7 +7,6 @@ public class Calculator_Devops {
     private static final Logger logger = LogManager.getLogger(Calculator_Devops.class);
     public static void main(String[] args)
     {
-        System.out.println("Enterd\n");
         System.out.println("----Calculator----");
         logger.info("------Calculator------");
         while(true)
