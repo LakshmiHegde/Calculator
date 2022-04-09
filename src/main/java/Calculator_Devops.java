@@ -8,6 +8,7 @@ public class Calculator_Devops {
     public static void main(String[] args)
     {
         //System.out.println("Enterd\n");
+        System.out.println("Hello\n");
         System.out.println("----Calculator----");
         logger.info("------Calculator------");
         while(true)
