@@ -62,3 +62,79 @@
 2022-04-15 23:22:50.124 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 7.0
 2022-04-15 23:22:50.125 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: -49.0
 2022-04-15 23:22:50.125 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to square root function: entered input is negative number
+2022-04-15 23:42:19.352 [Calculator_Devops.java] [INFO] Calculator_Devops ------Calculator------
+2022-04-15 23:42:26.901 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:42:29.712 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: 4.0
+2022-04-15 23:42:29.715 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 2.0
+2022-04-15 23:42:33.166 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:42:36.326 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: 6.0
+2022-04-15 23:42:36.327 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 2.449489742783178
+2022-04-15 23:42:38.961 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:42:40.433 [Calculator_Devops.java] [INFO] Calculator_Devops Called Factorial, input number: -1.0
+2022-04-15 23:42:40.434 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to factorial : entered input is negative number
+2022-04-15 23:42:58.717 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:43:01.715 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: 0.0
+2022-04-15 23:43:01.716 [Calculator_Devops.java] [INFO] Calculator_Devops Result: -Infinity
+2022-04-15 23:44:02.816 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:44:03.800 [Calculator_Devops.java] [INFO] Calculator_Devops Called Factorial, input number: 0.0
+2022-04-15 23:44:03.802 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 1.0
+2022-04-15 23:48:39.927 [Calculator_Devops.java] [INFO] Calculator_Devops ------Calculator------
+2022-04-15 23:48:43.668 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:48:45.685 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: 2.0
+2022-04-15 23:48:45.685 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 1.4142135623730951
+2022-04-15 23:48:48.738 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:48:52.142 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: -1.0
+2022-04-15 23:48:52.144 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to square root function: entered input is negative number
+2022-04-15 23:49:26.370 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:49:28.453 [Calculator_Devops.java] [INFO] Calculator_Devops Called Factorial, input number: -1.0
+2022-04-15 23:49:28.454 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to factorial : entered input is negative number
+2022-04-15 23:50:54.630 [Calculator_Devops.java] [INFO] Calculator_Devops ------Calculator------
+2022-04-15 23:50:57.488 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:50:59.298 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: 2.0
+2022-04-15 23:50:59.299 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 1.4142135623730951
+2022-04-15 23:51:00.855 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:51:02.155 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: -1.0
+2022-04-15 23:51:02.156 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to square root function: entered input is negative number
+2022-04-15 23:51:10.189 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:51:11.513 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: 0.5
+2022-04-15 23:51:11.515 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 0.7071067811865476
+2022-04-15 23:51:13.786 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 1
+2022-04-15 23:51:15.694 [Calculator_Devops.java] [INFO] Calculator_Devops Called square root, input number: -0.3
+2022-04-15 23:51:15.696 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to square root function: entered input is negative number
+2022-04-15 23:51:19.110 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:51:26.368 [Calculator_Devops.java] [INFO] Calculator_Devops Called Factorial, input number: 1.0
+2022-04-15 23:51:26.369 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 1.0
+2022-04-15 23:51:28.288 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:51:29.607 [Calculator_Devops.java] [INFO] Calculator_Devops Called Factorial, input number: 0.0
+2022-04-15 23:51:29.608 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 1.0
+2022-04-15 23:51:31.916 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:51:33.826 [Calculator_Devops.java] [INFO] Calculator_Devops Called Factorial, input number: -4.0
+2022-04-15 23:51:33.827 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to factorial : entered input is negative number
+2022-04-15 23:51:39.929 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 2
+2022-04-15 23:52:51.055 [Calculator_Devops.java] [INFO] Calculator_Devops ------Calculator------
+2022-04-15 23:52:54.975 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:52:56.310 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: 0.0
+2022-04-15 23:52:56.311 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to logarithm function
+2022-04-15 23:53:05.660 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:53:07.274 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: 1.0
+2022-04-15 23:53:07.276 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 0.0
+2022-04-15 23:53:17.560 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:53:19.600 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: -8.0
+2022-04-15 23:53:19.602 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to logarithm function
+2022-04-15 23:55:30.087 [Calculator_Devops.java] [INFO] Calculator_Devops ------Calculator------
+2022-04-15 23:55:32.962 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:55:33.870 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: 0.0
+2022-04-15 23:55:33.873 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to logarithm function
+2022-04-15 23:55:37.294 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:55:38.980 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: -1.0
+2022-04-15 23:55:38.981 [Calculator_Devops.java] [ERROR] Calculator_Devops Invalid input to logarithm function
+2022-04-15 23:55:45.153 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 3
+2022-04-15 23:55:47.086 [Calculator_Devops.java] [INFO] Calculator_Devops Called logarithm, input number: 0.78
+2022-04-15 23:55:47.087 [Calculator_Devops.java] [INFO] Calculator_Devops Result: -0.2484613592984996
+2022-04-15 23:55:53.325 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 4
+2022-04-15 23:55:55.839 [Calculator_Devops.java] [INFO] Calculator_Devops Called power , input number: 3.0 1.0
+2022-04-15 23:55:55.841 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 3.0
+2022-04-15 23:56:00.471 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 4
+2022-04-15 23:56:02.811 [Calculator_Devops.java] [INFO] Calculator_Devops Called power , input number: 0.2 9.0
+2022-04-15 23:56:02.812 [Calculator_Devops.java] [INFO] Calculator_Devops Result: 5.120000000000002E-7
+2022-04-15 23:56:07.588 [Calculator_Devops.java] [INFO] Calculator_Devops Choice entered : 5

@@ -3,6 +3,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
+
 public class Calculator_Devops {
     private static final Logger logger = LogManager.getLogger(Calculator_Devops.class);
     public static void main(String[] args)
@@ -12,7 +13,7 @@ public class Calculator_Devops {
         logger.info("------Calculator------");
         while(true)
         {
-            System.out.println("----Calculator----");
+            System.out.println("\n----Calculator----");
             System.out.println("\n\n1. Square root function\n2. Factorial function\n3. Natural logarithm(base e)\n4. Power function\n5. Exit\n");
             System.out.println("Your choice:\t");
             Scanner sc=new Scanner(System.in);
@@ -53,7 +54,7 @@ public class Calculator_Devops {
         logger.info("Called square root, input number: "+number);
         if(number < 0)
         {
-            logger.error("Invalid input to square root function: entered input is negative number");
+            logger.error("Invalid input to square root function");
             return Double.NaN;
         }
         double result=Math.sqrt(number);
@@ -66,7 +67,7 @@ public class Calculator_Devops {
         logger.info("Called Factorial, input number: "+number);
         if(number < 0)
         {
-            logger.error("Invalid input to factorial : entered input is negative number");
+            logger.error("Invalid input to factorial function");
             return Double.NaN;
         }
         double fact=1;
@@ -78,11 +79,12 @@ public class Calculator_Devops {
     public double logarithm(double number)
     {
         logger.info("Called logarithm, input number: "+number);
-        if(number < 0)
+        if(number <= 0)
         {
-            logger.error("Invalid input to logarithm : entered input is negative number");
+            logger.error("Invalid input to logarithm function");
             return Double.NaN;
         }
+
         double result=Math.log(number);
         logger.info("Result: "+result);
         return result;
