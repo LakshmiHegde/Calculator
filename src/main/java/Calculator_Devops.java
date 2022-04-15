@@ -9,10 +9,10 @@ public class Calculator_Devops {
     {
         //System.out.println("Enterd\n");
         //System.out.println("Hello\n");
-        System.out.println("----Calculator----");
         logger.info("------Calculator------");
         while(true)
         {
+            System.out.println("----Calculator----");
             System.out.println("\n\n1. Square root function\n2. Factorial function\n3. Natural logarithm(base e)\n4. Power function\n5. Exit\n");
             System.out.println("Your choice:\t");
             Scanner sc=new Scanner(System.in);
