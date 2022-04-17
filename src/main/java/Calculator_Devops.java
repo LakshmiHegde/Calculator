@@ -13,7 +13,7 @@ public class Calculator_Devops {
         logger.info("------Calculator------");
         while(true)
         {
-            System.out.println("\n----Calculator----");
+            System.out.println("\n----Calculator----\n");
             System.out.println("\n\n1. Square root function\n2. Factorial function\n3. Natural logarithm(base e)\n4. Power function\n5. Exit\n");
             System.out.println("Your choice:\t");
             Scanner sc=new Scanner(System.in);
