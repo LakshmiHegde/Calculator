@@ -1,0 +1,44 @@
+pipeline {
+    environment{
+        image=""
+    }
+	agent any 
+    stages {
+        stage('Git Pull') {
+            steps {
+               git branch: 'main', url: 'https://github.com/LakshmiHegde/Calculator.git'
+            }
+        }
+        stage('Maven Build') {
+            steps {
+                // Maven build
+                sh 'mvn clean install'
+            }
+        }
+        stage('Docker Build') {
+            steps {
+                
+                script{
+                    image=docker.build("lakshmihegdeiiitb/calculator_image")
+                }
+                
+            }
+        }
+        stage('Docker Push') {
+            steps {
+                // Maven build
+                script{
+                    docker.withRegistry('','Docker_Jenkins'){
+                        image.push()
+                    }
+                    
+                }
+            }
+        }
+        stage('Ansible Deploy') {
+            steps {
+                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'deploy/inventory', playbook: 'deploy/calc_pb.yml', sudoUser: null
+            }
+        }
+    }
+}
