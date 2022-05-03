@@ -10,7 +10,7 @@ public class Calculator_Devops {
     {
         //System.out.println("Enterd\n");
         //System.out.println("Hello\n");
-        logger.info("------Calculator------");
+        //logger.info("------Calculator------");
         while(true)
         {
             System.out.println("\n----Calculator----\n");
